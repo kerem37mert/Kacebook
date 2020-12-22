@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Front 1</title>
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="vendors/font-awesome/css/font-awesome.min.css">
+	<!--Style-->
+	<link rel="stylesheet" type="text/css" href="vendors/style.css">
+</head>
+<body>
+
+	<header>
+		<nav class="navbar navbar-expand-lg bg-primary navbar-light">
+			<h1 class="nav-link">
+				<a class="text-white" href="">Kacebook</a>
+			</h1>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+				<span class="fa fa-bars fa-2x text-white"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<div class="navbar-nav ml-auto">
+					<a class="nav-item nav-link" href="index.html">
+						<i class="fa fa-home fa-2x text-white px-5"></i>
+						<span class="m-menu-item">Ansayfa</span>
+					</a>
+					<a class="nav-item nav-link" href="friends.html">
+						<i class="fa fa-users fa-2x text-white px-5"></i>
+						<span class="m-menu-item">Arkadaşlar</span>
+					</a>
+					<a class="nav-item nav-link" href="messages.html">
+						<i class="fa fa-envelope-o fa-2x text-white px-5"></i>
+						<span class="m-menu-item">Mesajlar</span>
+					</a>
+					<a class="nav-item nav-link" href="profile.html">
+						<i class="fa fa-user fa-2x text-white px-5"></i>
+						<span class="m-menu-item">Profil</span>
+					</a>
+					<a class="nav-item nav-link" href="settings.html">
+						<i class="fa fa-cogs fa-2x text-white px-5"></i>
+						<span class="m-menu-item">Ayarlar</span>
+					</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-12 col-lg-8">
+				<div class="box py-4 px-4" style="height: 400px; overflow: auto;">
+					<div class="c-profile pb-4">
+						<a href="">
+							<img class="img-fluid" src="img/images.png">
+							<span class="text-dark pl-4">Kerem Mert</span>
+						</a>
+						<i class="fa fa-circle text-success pl-4"></i>
+					</div>
+
+					<div class="my-4">
+						<div class="mt-2">
+							<div class="ms bg-success">
+								<p class="py-2 pl-2 pr-4 text-white">Merhaba, Kerem Mert</p>
+							</div>
+						</div>
+						<div class="mt-2">
+							<div class="ms bg-success">
+								<p class="py-2 pl-2 pr-4 text-white">Merhaba, Kerem Mert Merhaba, Kerem Mert</p>
+							</div>
+						</div>
+						<div class="mt-2 text-right">
+							<div class="ms bg-light">
+								<p class="py-2 pl-2 pr-4 text-dark">Merhaba, Kerem Mert</p>
+							</div>
+						</div>
+						<div class="mt-2 text-right">
+							<div class="ms bg-light">
+								<p class="py-2 pl-2 pr-4 text-dark">Merhaba, Kerem Mert Merhaba, Kerem Mert</p>
+							</div>
+						</div>
+						<div class="mt-2">
+							<div class="ms bg-success">
+								<p class="py-2 pl-2 pr-4 text-white">Merhaba, Kerem Mert Merhaba, Kerem Mert</p>
+							</div>
+						</div>
+						<div class="mt-2 text-right">
+							<div class="ms bg-light">
+								<p class="py-2 pl-2 pr-4 text-dark">Merhaba, Kerem Mert</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- input -->
+					<div class="my-2">
+						<div>
+							<form>
+								<input class="form-control col-10" type="text" name="">
+								<button class="send" type="submit">
+									<i class="fa fa-send text-white"></i>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<!-- other friends -->
+				<div id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-ride="carousel">
+					<h3 class="text-center">Çevrimiçi Arkadaşlar (4)</h3>
+					<div class="carousel-inner text-center">
+						<div class="carousel-item active">
+							<a href="1">
+								<img class="w-100" src="img/images.png">
+							</a>
+						</div>
+						<div class="carousel-item">
+							<a href="2">
+								<img class="w-100" src="img/bg.png">
+							</a>
+						</div>
+						<div class="carousel-item">
+							<a href="3">
+								<img class="w-100" src="img/ads.png">
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- ADS -->
+				<div class="my-5">
+					<img class="img-fluid" src="img/ads.png">
+				</div>
+			</div>
+
+			<div class="col-lg-4 ">
+				<div class="search mb-4">
+					<form>
+						<input placeholder="Ara..." class="form-control col-10" type="text" name="">
+						<button class="bg-primary" type="submit">
+							<i class="fa fa-search text-white"></i>
+						</button>
+					</form>
+				</div>
+				<div class="h-menu">
+					<div class="list-group" style="font-weight: 600;">
+						<a class="list-group-item list-group-item-action" href="">Anasayfa</a>
+						<a class="list-group-item list-group-item-action" href="">Profil</a>
+						<a class="list-group-item list-group-item-action" href="">Arkadaşlar</a>
+						<a class="list-group-item list-group-item-action" href="">Mesajlar</a>
+						<a class="list-group-item list-group-item-action" href="">Gruplar</a>
+						<a class="list-group-item list-group-item-action" href="">Kaydedilenler</a>
+						<a class="list-group-item list-group-item-action" href="">Sayfalar</ua>
+						<a class="list-group-item list-group-item-action" href="">Oyunlar</a>
+						<a class="list-group-item list-group-item-action" href="">Ayarlar</a>
+					</div>
+				</div>
+
+				<!-- Friends and ADS -->
+				<div class="sticky-top">
+					<div class="mt-5 friends">
+						<div class="list-group">
+							<a class="list-group-item bg-primary text-white text-center sticky-top" href="javascript:void;">
+								Arkadaşlar (21)
+							</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+							<a class="list-group-item list-group-item-action" href="">Kerem Mert</a>
+						</div>
+					</div>
+					<!-- ADS -->
+					<div class="mt-4">
+						<div class="ads">
+							<img class="img-fluid"5 src="img/ads.png">
+						</div>
+					</div>
+					<!-- Footer -->
+					<div class="foot">
+						<div class="mt-5 list-group">
+							<p class="list-group-item bg-dark border-0 text-white text-center">
+								Kacebook <small>&copy; copright 2020</small>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="vendors/js/jquery-3.5.1.min.js"></script>
+	<script src="vendors/js/popper.min.js"></script>
+	<script src="vendors/js/bootstrap.min.js"></script>
+	<!-- mainjs -->
+	<script src="vendors/main.js"></script>
+
+</body>
+</html>
